@@ -1,0 +1,31 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "3.12.5",
+  "startedAt": "2024-10-30T14:36:46.851712Z",
+  "program": "c:\\Users\\maria\\OneDrive\\Escritorio\\tp3-td6\\TP3_clasificador_musica_2024.ipynb",
+  "git": {
+    "remote": "https://github.com/victoriamarsili/tp3-td6.git",
+    "commit": "7f158a72b27d13f71dde9fb39b4587ae2669c6ce"
+  },
+  "email": "sansonmariano@gmail.com",
+  "root": "c:\\Users\\maria\\OneDrive\\Escritorio\\tp3-td6",
+  "host": "LAPTOP-EK3HL11I",
+  "username": "maria",
+  "executable": "c:\\Users\\maria\\miniconda3\\envs\\TD6\\python.exe",
+  "codePathLocal": "TP3_clasificador_musica_2024.ipynb",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1001924136960",
+      "used": "603496210432"
+    }
+  },
+  "memory": {
+    "total": "16541437952"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  }
+}
