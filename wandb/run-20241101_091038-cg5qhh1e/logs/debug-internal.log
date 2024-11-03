@@ -65,3 +65,43 @@
 {"time":"2024-11-01T09:18:50.0658188-03:00","level":"INFO","msg":"Pausing system monitor"}
 {"time":"2024-11-01T09:18:53.1533209-03:00","level":"INFO","msg":"Resuming system monitor"}
 {"time":"2024-11-01T09:18:53.1655193-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:22:40.374724-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T09:23:40.7923726-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:25:23.3673978-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T09:25:23.3730155-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:25:24.6318667-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T09:25:24.6401693-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:25:25.0335684-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T09:25:25.0386668-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:25:26.3664595-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T09:25:26.3725177-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:25:27.7047124-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T09:25:27.709919-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:25:32.9704315-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T09:25:32.9828166-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:31:22.4405603-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T09:31:22.4478645-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T09:51:23.474434-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T09:51:25.5633514-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T09:51:33.7878705-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
+{"time":"2024-11-01T09:51:33.7878705-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
+{"time":"2024-11-01T09:51:36.0575179-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
+{"time":"2024-11-01T09:51:40.5310968-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
+{"time":"2024-11-01T09:51:42.0595965-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
+{"time":"2024-11-01T09:51:49.1102339-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
+{"time":"2024-11-01T09:51:59.5702686-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
+{"time":"2024-11-01T09:52:05.5979996-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: getaddrinfow: The requested name is valid, but no data of the requested type was found."}
+{"time":"2024-11-01T10:21:06.4604653-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": EOF"}
+{"time":"2024-11-01T13:43:12.2526683-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T13:43:14.3332954-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T13:43:18.9478807-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T13:43:27.7075082-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
+{"time":"2024-11-01T13:43:44.5076656-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T15:02:00.4889272-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T15:02:02.6126234-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T15:02:17.7227317-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-02T13:01:27.5273519-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-02T13:01:29.962758-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-02T13:01:37.5814787-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-03T19:05:23.5022781-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-03T19:05:41.8581074-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sansonmariano-universidad-torcuato-di-tella/TP3-TD6/cg5qhh1e/file_stream\": dial tcp 35.186.228.49:443: connectex: An attempt was made to access a socket in a way forbidden by its access permissions."}
