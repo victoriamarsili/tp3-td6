@@ -1,0 +1,708 @@
+2024-10-31 21:10:48,276 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:10:48,277 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:10:48,277 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:10:48,277 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:10:48,277 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:10:48,277 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:10:48,278 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:10:48,278 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:10:48,278 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:10:48,278 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\run-20241031_211048-bu8sw8x3\logs\debug.log
+2024-10-31 21:10:48,279 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\run-20241031_211048-bu8sw8x3\logs\debug-internal.log
+2024-10-31 21:10:48,279 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:10:48,279 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:10:48,279 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:10:48,279 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:10:48,291 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:10:48,293 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:10:48,315 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:10:48,337 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:10:48,447 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:12:19,255 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:12:19,255 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:14:00,114 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {}
+2024-10-31 21:14:00,123 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:14:00,124 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:14:00,124 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:14:00,124 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:14:00,124 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:14:00,124 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:14:00,125 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:14:00,125 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:14:00,125 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:14:00,125 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\run-20241031_211400-cudaq929\logs\debug.log
+2024-10-31 21:14:00,126 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\run-20241031_211400-cudaq929\logs\debug-internal.log
+2024-10-31 21:14:00,126 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:14:00,126 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:14:00,126 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:14:00,126 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:14:00,136 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:14:00,138 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:14:00,157 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:14:00,162 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:14:00,281 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 300.0 second timeout
+2024-10-31 21:17:32,392 WARNING MainThread:14400 [wandb_init.py:init():1260] interrupted
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 819, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-10-31 21:17:36,832 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {}
+2024-10-31 21:17:36,838 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:17:36,839 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:17:36,840 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:17:36,840 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:17:36,840 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:17:36,840 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:17:36,840 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:17:36,840 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:17:36,840 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:17:36,841 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\run-20241031_211736-vgpijrte\logs\debug.log
+2024-10-31 21:17:36,842 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\run-20241031_211736-vgpijrte\logs\debug-internal.log
+2024-10-31 21:17:36,842 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:17:36,842 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:17:36,842 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:17:36,842 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:17:36,853 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:17:36,854 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:17:36,867 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:17:36,871 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:17:36,966 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 300.0 second timeout
+2024-10-31 21:17:37,976 WARNING MainThread:14400 [wandb_init.py:init():1260] interrupted
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 819, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-10-31 21:17:44,822 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:17:44,832 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:17:48,490 INFO    Thread-32 (wrapped_target):14400 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 730, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 909, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\util\ssl_.py", line 469, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\util\ssl_.py", line 513, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "c:\Python312\Lib\ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\internal\internal_api.py", line 354, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))
+2024-10-31 21:17:49,843 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:17:49,843 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:17:49,843 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:17:49,844 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:17:49,844 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:17:49,844 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:17:49,853 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:17:49,853 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:17:49,854 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:17:49,854 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_211749-1bkbukqe\logs\debug.log
+2024-10-31 21:17:49,855 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_211749-1bkbukqe\logs\debug-internal.log
+2024-10-31 21:17:49,855 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:17:49,856 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:17:49,856 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:17:49,856 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:17:49,865 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:17:49,871 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:17:49,892 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:17:49,897 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:17:49,971 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:19:09,655 WARNING MainThread:14400 [wandb_init.py:init():1260] interrupted
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 819, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-10-31 21:19:14,420 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:19:14,435 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:19:14,436 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:19:14,437 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:19:14,437 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:19:14,437 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:19:14,437 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:19:14,438 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:19:14,438 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:19:14,438 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:19:14,439 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_211914-i5zguhoq\logs\debug.log
+2024-10-31 21:19:14,439 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_211914-i5zguhoq\logs\debug-internal.log
+2024-10-31 21:19:14,441 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:19:14,441 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:19:14,441 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:19:14,441 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:19:14,451 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:19:14,452 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:19:14,469 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:19:14,475 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:19:14,602 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:19:48,950 WARNING MainThread:14400 [wandb_init.py:init():1260] interrupted
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 819, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-10-31 21:19:49,932 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:19:49,948 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:19:49,949 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:19:49,949 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:19:49,949 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:19:49,949 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:19:49,949 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:19:49,950 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:19:49,950 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:19:49,951 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:19:49,951 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_211949-m9yovule\logs\debug.log
+2024-10-31 21:19:49,952 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_211949-m9yovule\logs\debug-internal.log
+2024-10-31 21:19:49,953 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:19:49,953 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:19:49,954 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:19:49,954 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:19:49,965 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:19:49,967 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:19:49,988 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:19:49,994 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:19:50,102 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:21:21,000 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:21:21,001 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:21:33,130 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:21:33,146 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:21:33,146 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:21:33,147 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:21:33,147 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:21:33,147 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:21:33,148 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:21:33,148 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:21:33,148 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:21:33,149 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:21:33,149 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_212133-x3payw6e\logs\debug.log
+2024-10-31 21:21:33,150 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_212133-x3payw6e\logs\debug-internal.log
+2024-10-31 21:21:33,150 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:21:33,151 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:21:33,151 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:21:33,152 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:21:33,160 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:21:33,162 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:21:33,174 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:21:33,178 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:21:33,270 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:23:02,933 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-10-31 21:23:04,130 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:23:04,130 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:24:43,134 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:24:43,152 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:24:43,153 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:24:43,153 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:24:43,153 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:24:43,154 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:24:43,154 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:24:43,155 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:24:43,155 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:24:43,155 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:24:43,155 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_212443-bhxu7vn3\logs\debug.log
+2024-10-31 21:24:43,156 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_212443-bhxu7vn3\logs\debug-internal.log
+2024-10-31 21:24:43,156 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:24:43,156 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:24:43,157 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:24:43,157 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:24:43,190 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:24:43,192 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:24:43,203 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:24:43,223 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:24:43,356 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:26:14,206 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:26:14,206 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:26:39,833 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-10-31 21:27:11,779 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-10-31 21:27:33,866 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-10-31 21:28:03,148 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:28:03,167 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:28:03,168 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:28:03,169 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:28:03,169 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:28:03,170 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:28:03,170 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:28:03,170 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:28:03,171 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:28:03,171 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:28:03,172 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_212803-xtoxnbs0\logs\debug.log
+2024-10-31 21:28:03,172 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_212803-xtoxnbs0\logs\debug-internal.log
+2024-10-31 21:28:03,173 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:28:03,173 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:28:03,173 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:28:03,174 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:28:03,185 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:28:03,187 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:28:03,204 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:28:03,209 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:28:03,315 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:29:34,198 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:29:34,198 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:29:40,594 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:29:40,611 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:29:40,611 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:29:40,612 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:29:40,612 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:29:40,613 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:29:40,613 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:29:40,614 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:29:40,614 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:29:40,615 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:29:40,616 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_212940-ia4m3f74\logs\debug.log
+2024-10-31 21:29:40,616 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_212940-ia4m3f74\logs\debug-internal.log
+2024-10-31 21:29:40,616 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:29:40,617 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:29:40,617 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:29:40,617 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:29:40,626 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:29:40,627 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:29:40,643 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:29:40,648 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:29:40,746 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:30:33,397 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-10-31 21:31:11,594 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:31:11,595 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:32:50,359 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:32:50,380 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:32:50,381 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:32:50,381 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:32:50,382 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:32:50,382 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:32:50,382 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:32:50,384 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:32:50,384 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:32:50,384 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:32:50,385 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_213250-6hlj6m9m\logs\debug.log
+2024-10-31 21:32:50,386 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_213250-6hlj6m9m\logs\debug-internal.log
+2024-10-31 21:32:50,386 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:32:50,386 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:32:50,387 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:32:50,387 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:32:50,401 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:32:50,403 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:32:50,425 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:32:50,437 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:32:50,547 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:33:09,883 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-10-31 21:34:21,454 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:34:21,455 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:36:18,449 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:36:18,467 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-31 21:36:18,467 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-10-31 21:36:18,467 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-10-31 21:36:18,468 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-10-31 21:36:18,468 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-31 21:36:18,468 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-31 21:36:18,469 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:36:18,469 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-31 21:36:18,470 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-31 21:36:18,470 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_213618-fykwd49m\logs\debug.log
+2024-10-31 21:36:18,471 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241031_213618-fykwd49m\logs\debug-internal.log
+2024-10-31 21:36:18,472 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-10-31 21:36:18,472 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-10-31 21:36:18,472 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-10-31 21:36:18,472 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-10-31 21:36:18,483 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-31 21:36:18,485 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-10-31 21:36:18,501 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-10-31 21:36:18,506 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-10-31 21:36:18,607 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-31 21:37:49,480 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:37:49,480 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-31 21:38:12,668 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-11-01 08:19:32,905 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:19:41,213 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:20:09,724 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:20:19,000 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:20:19,019 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-11-01 08:20:19,020 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-11-01 08:20:19,021 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-11-01 08:20:19,021 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-11-01 08:20:19,022 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-01 08:20:19,022 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-01 08:20:19,023 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:20:19,023 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:20:19,024 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-01 08:20:19,024 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_082019-927rbb3f\logs\debug.log
+2024-11-01 08:20:19,025 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_082019-927rbb3f\logs\debug-internal.log
+2024-11-01 08:20:19,025 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-11-01 08:20:19,026 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-11-01 08:20:19,026 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-11-01 08:20:19,026 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-11-01 08:20:19,068 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-01 08:20:19,070 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-11-01 08:20:19,090 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-01 08:20:19,113 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-11-01 08:20:19,210 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-01 08:21:50,042 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:21:50,044 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:22:21,149 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:22:21,167 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-11-01 08:22:21,168 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-11-01 08:22:21,169 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-11-01 08:22:21,169 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-11-01 08:22:21,169 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-01 08:22:21,170 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-01 08:22:21,170 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:22:21,171 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:22:21,171 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-01 08:22:21,171 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_082221-uqijsbz5\logs\debug.log
+2024-11-01 08:22:21,172 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_082221-uqijsbz5\logs\debug-internal.log
+2024-11-01 08:22:21,173 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-11-01 08:22:21,173 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-11-01 08:22:21,174 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-11-01 08:22:21,174 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-11-01 08:22:21,184 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-01 08:22:21,186 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-11-01 08:22:21,200 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-01 08:22:21,205 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-11-01 08:22:21,310 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-01 08:23:52,138 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:23:52,138 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:27:25,868 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-11-01 08:38:25,614 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:38:25,632 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-11-01 08:38:25,633 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-11-01 08:38:25,633 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-11-01 08:38:25,634 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-11-01 08:38:25,634 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-01 08:38:25,635 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-01 08:38:25,636 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:38:25,636 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:38:25,636 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-01 08:38:25,637 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_083825-7vs2hgnc\logs\debug.log
+2024-11-01 08:38:25,638 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_083825-7vs2hgnc\logs\debug-internal.log
+2024-11-01 08:38:25,639 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-11-01 08:38:25,639 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-11-01 08:38:25,639 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-11-01 08:38:25,640 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-11-01 08:38:25,675 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-01 08:38:25,677 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-11-01 08:38:25,693 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-01 08:38:25,714 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-11-01 08:38:25,829 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-01 08:39:56,747 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:39:56,749 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:41:07,656 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:41:07,669 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-11-01 08:41:07,671 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-11-01 08:41:07,672 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-11-01 08:41:07,673 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-11-01 08:41:07,673 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-01 08:41:07,673 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-01 08:41:07,674 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:41:07,674 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:41:07,675 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-01 08:41:07,675 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_084107-1eli47s5\logs\debug.log
+2024-11-01 08:41:07,676 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_084107-1eli47s5\logs\debug-internal.log
+2024-11-01 08:41:07,677 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-11-01 08:41:07,677 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-11-01 08:41:07,678 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-11-01 08:41:07,678 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-11-01 08:41:07,689 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-01 08:41:07,691 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-11-01 08:41:07,706 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-01 08:41:07,711 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-11-01 08:41:07,809 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-01 08:42:38,643 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:42:38,644 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:43:13,208 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-11-01 08:43:21,272 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed
+2024-11-01 08:43:29,727 INFO    MainThread:14400 [wandb_settings.py:_apply_login():1972] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:43:29,741 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-11-01 08:43:29,742 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Configure stats pid to 14400
+2024-11-01 08:43:29,743 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from C:\Users\qbcq\.config\wandb\settings
+2024-11-01 08:43:29,743 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\settings
+2024-11-01 08:43:29,744 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-01 08:43:29,744 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-01 08:43:29,744 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:43:29,745 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-01 08:43:29,745 INFO    MainThread:14400 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-01 08:43:29,746 INFO    MainThread:14400 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_084329-rt9na2tl\logs\debug.log
+2024-11-01 08:43:29,747 INFO    MainThread:14400 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\qbcq\OneDrive - Chevron\Desktop\Facultad\TD6\TP3-20241028\tp3-td6\wandb\offline-run-20241101_084329-rt9na2tl\logs\debug-internal.log
+2024-11-01 08:43:29,747 INFO    MainThread:14400 [wandb_init.py:init():621] calling init triggers
+2024-11-01 08:43:29,748 INFO    MainThread:14400 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-11-01 08:43:29,748 INFO    MainThread:14400 [wandb_init.py:init():671] starting backend
+2024-11-01 08:43:29,749 INFO    MainThread:14400 [wandb_init.py:init():675] sending inform_init request
+2024-11-01 08:43:29,760 INFO    MainThread:14400 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-01 08:43:29,762 INFO    MainThread:14400 [wandb_init.py:init():688] backend started and connected
+2024-11-01 08:43:29,779 INFO    MainThread:14400 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-01 08:43:29,785 INFO    MainThread:14400 [wandb_init.py:init():783] updated telemetry
+2024-11-01 08:43:29,883 INFO    MainThread:14400 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-01 08:45:00,804 ERROR   MainThread:14400 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:45:00,805 ERROR   MainThread:14400 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\qbcq\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 08:59:06,516 WARNING MsgRouterThr:14400 [router.py:message_loop():77] message_loop has been closed

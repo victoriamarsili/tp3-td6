@@ -1,0 +1,7 @@
+{"time":"2024-11-01T08:22:21.2937775-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-01T08:22:21.2937775-03:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\qbcq\\OneDrive - Chevron\\Desktop\\Facultad\\TD6\\TP3-20241028\\tp3-td6\\wandb\\offline-run-20241101_082221-uqijsbz5\\logs\\debug-core.log"}
+{"time":"2024-11-01T08:22:21.4198292-03:00","level":"INFO","msg":"created new stream","id":"uqijsbz5"}
+{"time":"2024-11-01T08:22:21.4198292-03:00","level":"INFO","msg":"stream: started","id":"uqijsbz5"}
+{"time":"2024-11-01T08:22:21.4198292-03:00","level":"INFO","msg":"sender: started","stream_id":"uqijsbz5"}
+{"time":"2024-11-01T08:22:21.4198292-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"uqijsbz5"}}
+{"time":"2024-11-01T08:22:21.4199852-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"uqijsbz5"}}

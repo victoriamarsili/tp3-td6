@@ -1,0 +1,9 @@
+{"time":"2024-10-31T21:07:35.4935327-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-31T21:07:35.4940742-03:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\qbcq\\OneDrive - Chevron\\Desktop\\Facultad\\TD6\\TP3-20241028\\tp3-td6\\wandb\\run-20241031_210735-jap59zcj\\logs\\debug-core.log"}
+{"time":"2024-10-31T21:07:35.6217112-03:00","level":"INFO","msg":"created new stream","id":"jap59zcj"}
+{"time":"2024-10-31T21:07:35.6217112-03:00","level":"INFO","msg":"stream: started","id":"jap59zcj"}
+{"time":"2024-10-31T21:07:35.6217112-03:00","level":"INFO","msg":"sender: started","stream_id":"jap59zcj"}
+{"time":"2024-10-31T21:07:35.6217112-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"jap59zcj"}}
+{"time":"2024-10-31T21:07:35.6217112-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"jap59zcj"}}
+{"time":"2024-10-31T21:07:36.0005966-03:00","level":"ERROR","msg":"HTTP error","status":400,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-10-31T21:07:36.0005966-03:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 400 Bad Request: {\"errors\":[{\"message\":\"you may not log runs directly to your organization, please try using your team entity\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

@@ -1,0 +1,7 @@
+{"time":"2024-10-31T21:19:50.0762907-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-31T21:19:50.0762907-03:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\qbcq\\OneDrive - Chevron\\Desktop\\Facultad\\TD6\\TP3-20241028\\tp3-td6\\wandb\\offline-run-20241031_211949-m9yovule\\logs\\debug-core.log"}
+{"time":"2024-10-31T21:19:50.2034758-03:00","level":"INFO","msg":"created new stream","id":"m9yovule"}
+{"time":"2024-10-31T21:19:50.2034758-03:00","level":"INFO","msg":"stream: started","id":"m9yovule"}
+{"time":"2024-10-31T21:19:50.203996-03:00","level":"INFO","msg":"sender: started","stream_id":"m9yovule"}
+{"time":"2024-10-31T21:19:50.2039842-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"m9yovule"}}
+{"time":"2024-10-31T21:19:50.2040071-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"m9yovule"}}

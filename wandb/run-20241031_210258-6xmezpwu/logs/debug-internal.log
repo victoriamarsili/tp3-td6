@@ -1,0 +1,9 @@
+{"time":"2024-10-31T21:02:58.1749778-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-31T21:02:58.1749778-03:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\qbcq\\OneDrive - Chevron\\Desktop\\Facultad\\TD6\\TP3-20241028\\tp3-td6\\wandb\\run-20241031_210258-6xmezpwu\\logs\\debug-core.log"}
+{"time":"2024-10-31T21:02:58.303368-03:00","level":"INFO","msg":"created new stream","id":"6xmezpwu"}
+{"time":"2024-10-31T21:02:58.3033982-03:00","level":"INFO","msg":"stream: started","id":"6xmezpwu"}
+{"time":"2024-10-31T21:02:58.3033982-03:00","level":"INFO","msg":"sender: started","stream_id":"6xmezpwu"}
+{"time":"2024-10-31T21:02:58.3033982-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"6xmezpwu"}}
+{"time":"2024-10-31T21:02:58.3033982-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"6xmezpwu"}}
+{"time":"2024-10-31T21:02:58.6914807-03:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-10-31T21:02:58.6914807-03:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
