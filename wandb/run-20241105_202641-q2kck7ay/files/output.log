@@ -1,0 +1,73 @@
+Epoch: [1/10], Train loss: 2.2921
+Epoch: [1/10], Valid loss: 2.2543, Valid accuracy: 0.1216
+Saving the best model at 0 epochs!
+Epoch: [2/10], Train loss: 1.5623
+Epoch: [2/10], Valid loss: 2.2485, Valid accuracy: 0.1351
+Saving the best model at 1 epochs!
+Epoch: [3/10], Train loss: 0.8179
+Epoch: [3/10], Valid loss: 2.2706, Valid accuracy: 0.1351
+Epoch: [4/10], Train loss: 0.4034
+Epoch: [4/10], Valid loss: 2.3488, Valid accuracy: 0.1554
+Epoch: [5/10], Train loss: 0.2275
+Epoch: [5/10], Valid loss: 2.3974, Valid accuracy: 0.1757
+Epoch: [6/10], Train loss: 0.1402
+Epoch: [6/10], Valid loss: 2.4915, Valid accuracy: 0.1757
+Epoch: [7/10], Train loss: 0.0932
+Epoch: [7/10], Valid loss: 2.5613, Valid accuracy: 0.1892
+Epoch: [8/10], Train loss: 0.0578
+Epoch: [8/10], Valid loss: 2.6151, Valid accuracy: 0.1824
+Epoch: [9/10], Train loss: 0.0409
+Epoch: [9/10], Valid loss: 2.6974, Valid accuracy: 0.1824
+Epoch: [10/10], Train loss: 0.0314
+Epoch: [10/10], Valid loss: 2.8484, Valid accuracy: 0.1892
+Test Loss: 0.1501, Test Accuracy: 8.72%
+Epoch: [1/10], Train loss: 0.0202
+Epoch: [1/10], Valid loss: 3.2094, Valid accuracy: 0.1959
+Saving the best model at 0 epochs!
+Epoch: [2/10], Train loss: 0.0066
+Epoch: [2/10], Valid loss: 3.3924, Valid accuracy: 0.1689
+Epoch: [3/10], Train loss: 0.0071
+Epoch: [3/10], Valid loss: 3.7449, Valid accuracy: 0.1757
+Epoch: [4/10], Train loss: 0.0035
+Epoch: [4/10], Valid loss: 3.6894, Valid accuracy: 0.1824
+Epoch: [5/10], Train loss: 0.0026
+Epoch: [5/10], Valid loss: 3.7592, Valid accuracy: 0.1824
+Epoch: [6/10], Train loss: 0.0022
+Epoch: [6/10], Valid loss: 3.8713, Valid accuracy: 0.1824
+Epoch: [7/10], Train loss: 0.0029
+Epoch: [7/10], Valid loss: 3.9580, Valid accuracy: 0.1757
+Epoch: [8/10], Train loss: 0.0025
+Epoch: [8/10], Valid loss: 3.8370, Valid accuracy: 0.1757
+Epoch: [9/10], Train loss: 0.0024
+Epoch: [9/10], Valid loss: 4.0123, Valid accuracy: 0.1757
+Epoch: [10/10], Train loss: 0.0023
+Epoch: [10/10], Valid loss: 3.9800, Valid accuracy: 0.1757
+Test Loss: 0.2168, Test Accuracy: 8.72%
+Test Loss: 0.2168, Test Accuracy: 8.72%
+val loss: 2.291267365217209, for 2 layers and layer size: 32
+val loss: 2.309815764427185, for 2 layers and layer size: 64
+val loss: 2.350921392440796, for 2 layers and layer size: 128
+val loss: 2.4050648510456085, for 2 layers and layer size: 256
+val loss: 2.2834887206554413, for 3 layers and layer size: 32
+val loss: 2.245402365922928, for 3 layers and layer size: 64
+val loss: 2.232895016670227, for 3 layers and layer size: 128
+val loss: 2.2026494443416595, for 3 layers and layer size: 256
+val loss: 2.2466991245746613, for 5 layers and layer size: 32
+val loss: 2.2361532747745514, for 5 layers and layer size: 64
+val loss: 2.230749547481537, for 5 layers and layer size: 128
+val loss: 2.1959167569875717, for 5 layers and layer size: 256
+val loss: 2.28564316034317, for 6 layers and layer size: 32
+val loss: 2.229599118232727, for 6 layers and layer size: 64
+val loss: 2.2390552163124084, for 6 layers and layer size: 128
+val loss: 2.20683191716671, for 6 layers and layer size: 256
+val loss: 2.3013379871845245, for 9 layers and layer size: 32
+val loss: 2.2955906689167023, for 9 layers and layer size: 64
+val loss: 2.236026555299759, for 9 layers and layer size: 128
+val loss: 2.2355357706546783, for 9 layers and layer size: 256
+Best model: ExperimentNN(
+  (fc_layers): ModuleList(
+    (0): Linear(in_features=110250, out_features=256, bias=True)
+    (1-3): 3 x Linear(in_features=256, out_features=256, bias=True)
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+), validation loss: 2.1959167569875717

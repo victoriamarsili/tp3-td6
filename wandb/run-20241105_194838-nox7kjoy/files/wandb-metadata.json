@@ -1,0 +1,30 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.6",
+  "startedAt": "2024-11-05T22:48:41.416847Z",
+  "program": "c:\\Users\\qbcq\\OneDrive - Chevron\\Desktop\\Facultad\\TD6\\TP3-20241028\\tp3-td6\\TP3_main.ipynb",
+  "git": {
+    "remote": "https://github.com/victoriamarsili/tp3-td6.git",
+    "commit": "a5919ca7a3741321df5c320e3c4458d489b7dbab"
+  },
+  "root": "c:\\Users\\qbcq\\OneDrive - Chevron\\Desktop\\Facultad\\TD6\\TP3-20241028\\tp3-td6",
+  "host": "PF4T66SH",
+  "username": "qbcq",
+  "executable": "c:\\Python312\\python.exe",
+  "codePathLocal": "TP3_main.ipynb",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "511819378688",
+      "used": "105651535872"
+    }
+  },
+  "memory": {
+    "total": "32980439040"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  }
+}

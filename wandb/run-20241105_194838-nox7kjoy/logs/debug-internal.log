@@ -1,0 +1,17 @@
+{"time":"2024-11-05T19:48:41.417395-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-05T19:48:41.417395-03:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\qbcq\\OneDrive - Chevron\\Desktop\\Facultad\\TD6\\TP3-20241028\\tp3-td6\\wandb\\run-20241105_194838-nox7kjoy\\logs\\debug-core.log"}
+{"time":"2024-11-05T19:48:41.5416471-03:00","level":"INFO","msg":"created new stream","id":"nox7kjoy"}
+{"time":"2024-11-05T19:48:41.5416471-03:00","level":"INFO","msg":"stream: started","id":"nox7kjoy"}
+{"time":"2024-11-05T19:48:41.5416471-03:00","level":"INFO","msg":"sender: started","stream_id":"nox7kjoy"}
+{"time":"2024-11-05T19:48:41.5416471-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nox7kjoy"}}
+{"time":"2024-11-05T19:48:41.5416471-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"nox7kjoy"}}
+{"time":"2024-11-05T19:48:42.1355444-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-05T20:26:41.8961633-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-05T20:26:41.8967384-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-05T20:26:42.8982905-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.4736627},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4509366},{"desc":"uploading config.yaml","runtime_seconds":0.2198561},{"desc":"uploading output.log","runtime_seconds":0.2198561}],"total_operations":4}}
+{"time":"2024-11-05T20:26:44.9303016-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-05T20:26:46.4006677-03:00","level":"INFO","msg":"stream: closing","id":"nox7kjoy"}
+{"time":"2024-11-05T20:26:46.4006677-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"nox7kjoy"}}
+{"time":"2024-11-05T20:26:46.4006677-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nox7kjoy"}}
+{"time":"2024-11-05T20:26:46.4006677-03:00","level":"INFO","msg":"sender: closed","stream_id":"nox7kjoy"}
+{"time":"2024-11-05T20:26:46.4006677-03:00","level":"INFO","msg":"stream: closed","id":"nox7kjoy"}

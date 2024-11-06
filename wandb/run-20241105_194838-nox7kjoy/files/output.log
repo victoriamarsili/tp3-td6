@@ -1,0 +1,56 @@
+shape of waveform torch.Size([1, 110250]), sample rate with 22050, label is 4
+shape of spectogram torch.Size([1, 201, 552])
+Waveform: tensor([[ 0.0073,  0.0166,  0.0076,  ..., -0.1055, -0.1083, -0.1056]])
+
+Epoch: [1/10], Train loss: 2.2924
+Epoch: [1/10], Valid loss: 2.2588, Valid accuracy: 0.1284
+Saving the best model at 0 epochs!
+Epoch: [2/10], Train loss: 1.5404
+Epoch: [2/10], Valid loss: 2.2328, Valid accuracy: 0.2027
+Saving the best model at 1 epochs!
+Epoch: [3/10], Train loss: 0.8445
+Epoch: [3/10], Valid loss: 2.2522, Valid accuracy: 0.1959
+Epoch: [4/10], Train loss: 0.4422
+Epoch: [4/10], Valid loss: 2.3514, Valid accuracy: 0.1892
+Epoch: [5/10], Train loss: 0.2580
+Epoch: [5/10], Valid loss: 2.4566, Valid accuracy: 0.1959
+Epoch: [6/10], Train loss: 0.1556
+Epoch: [6/10], Valid loss: 2.4544, Valid accuracy: 0.2095
+Epoch: [7/10], Train loss: 0.1043
+Epoch: [7/10], Valid loss: 2.5613, Valid accuracy: 0.2162
+Epoch: [8/10], Train loss: 0.0676
+Epoch: [8/10], Valid loss: 2.6820, Valid accuracy: 0.2162
+Epoch: [9/10], Train loss: 0.0441
+Epoch: [9/10], Valid loss: 2.6541, Valid accuracy: 0.2095
+Epoch: [10/10], Train loss: 0.0303
+Epoch: [10/10], Valid loss: 2.7883, Valid accuracy: 0.2095
+Test Loss: 0.1464, Test Accuracy: 8.72%
+val loss: 2.2699800729751587, for 2 layers and layer size: 32
+val loss: 2.289710819721222, for 2 layers and layer size: 64
+val loss: 2.30418261885643, for 2 layers and layer size: 128
+val loss: 2.4098042845726013, for 2 layers and layer size: 256
+val loss: 2.2441365122795105, for 3 layers and layer size: 32
+val loss: 2.2201276421546936, for 3 layers and layer size: 64
+val loss: 2.1951679587364197, for 3 layers and layer size: 128
+val loss: 2.215685486793518, for 3 layers and layer size: 256
+val loss: 2.2348318994045258, for 5 layers and layer size: 32
+val loss: 2.2395024597644806, for 5 layers and layer size: 64
+val loss: 2.213505893945694, for 5 layers and layer size: 128
+val loss: 2.2343348562717438, for 5 layers and layer size: 256
+val loss: 2.274532198905945, for 6 layers and layer size: 32
+val loss: 2.24172106385231, for 6 layers and layer size: 64
+val loss: 2.189728409051895, for 6 layers and layer size: 128
+val loss: 2.2333579063415527, for 6 layers and layer size: 256
+val loss: 2.26535427570343, for 9 layers and layer size: 32
+val loss: 2.29393669962883, for 9 layers and layer size: 64
+val loss: 2.206872820854187, for 9 layers and layer size: 128
+val loss: 2.2198745012283325, for 9 layers and layer size: 256
+Best model: ExperimentNN(
+  (fc_layers): ModuleList(
+    (0): Linear(in_features=110250, out_features=128, bias=True)
+    (1-4): 4 x Linear(in_features=128, out_features=128, bias=True)
+    (5): Linear(in_features=128, out_features=10, bias=True)
+  )
+), validation loss: 2.189728409051895
+Test Loss: 0.2020, Test Accuracy: 9.40%
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
