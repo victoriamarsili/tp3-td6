@@ -51,11 +51,11 @@ class MusicDataset(Dataset):
         return audio, class_idx
 
 # Transformación para convertir audio a Mel-spectrograma
-spectrogram_transform = tt.MelSpectrogram(sample_rate=samplerate, n_fft=1024, hop_length=512)
+#spectrogram_transform = tt.MelSpectrogram(sample_rate=samplerate, n_fft=1024, hop_length=512)
 
 # Cargar el dataset con la transformación
 data_dir = './genres_5sec'
-dataset = MusicDataset(data_dir, transform=spectrogram_transform)
+dataset = MusicDataset(data_dir, transform=None)
 
 # Crear los pesos de las clases para balancear el dataset
 labels = [dataset[i][1] for i in range(len(dataset))]
@@ -80,6 +80,10 @@ val_loader = DataLoader(val_dataset, batch_size=init_batch_size, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=init_batch_size, shuffle=False)
 
 # Define a model class with ReLU activation and Dropout layers
+# Cargar el dataset sin la transformación de espectrograma
+dataset = MusicDataset(data_dir, transform=None)
+
+# Ajuste en la clase del modelo
 class ExperimentNN(nn.Module):
     def __init__(self, input_size, num_classes, layer_size, layers):
         super(ExperimentNN, self).__init__()
@@ -96,12 +100,15 @@ class ExperimentNN(nn.Module):
         self.fc_layers.append(nn.Linear(layer_size, num_classes))
 
     def forward(self, x):
-        x = x.view(x.size(0), -1)  # Aplanar el espectrograma
+        x = x.view(x.size(0), -1)  # Aplanar la onda de audio
         x = (x - x.mean()) / x.std()  # Normalización
         for fc in self.fc_layers[:-1]:  # Skip last layer
             x = self.dropout(F.relu(fc(x)))  # ReLU + Dropout
         x = self.fc_layers[-1](x)  # Output layer (no activation)
         return x
+
+# Definir el tamaño de entrada basado en la longitud de la onda de audio
+input_size = samplerate * 5  # 5 segundos de audio en muestras
 
 def train_model(model, criterion, optimizer, scheduler, epochs, train_loader, val_loader, device):
     best_loss = float("inf")
@@ -145,11 +152,13 @@ def train_model(model, criterion, optimizer, scheduler, epochs, train_loader, va
         torch.cuda.empty_cache()
 
     return best_loss
-
+"""
 # Definir los parámetros del modelo basados en el tamaño del espectrograma (frequencies x time_steps)
 frequencies = 128  # Mel-spectrogram reduce dimensionalidad
 time_steps = (samplerate * 5) // 512 + 1
 input_size = frequencies * time_steps  # Tamaño de entrada basado en el espectrograma aplanado
+"""
+input_size = samplerate * 5
 
 num_classes = len(dataset.classes)  # Número de clases (géneros musicales)
 
@@ -177,7 +186,7 @@ for layers in layers_list:
         # Definir el criterio y optimizador con los pesos de las clases
         criterion = nn.CrossEntropyLoss(weight=class_weights.to(device))
         optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
-        
+
         # Define el scheduler
         scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
 
